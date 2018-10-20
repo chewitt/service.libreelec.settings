@@ -77,6 +77,7 @@ services = {
     'D_SSH_DISABLE_PW_AUTH': '0',
     'AVAHI_DAEMON': '/usr/sbin/avahi-daemon',
     'CRON_DAEMON': '/sbin/crond',
+    'OPENVFD_DAEMON': '/usr/bin/openvfd',
     }
 
 system = {
@@ -112,5 +113,6 @@ _services = {
     'bluez': ['bluetooth.service'],
     'obexd': ['obex.service'],
     'crond': ['cron.service'],
+    'openvfd': ['openvfd.service'],
     'iptables': ['iptables.service'],
     }
